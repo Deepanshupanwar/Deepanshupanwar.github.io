@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Assignment</title>
+</head>
+<body>
+        <nav class="sidebar close">
+            <header class="head">
+                <div class="image-logo">
+                    <span class="image" >
+                        <img src="logo.avif" alt="logo">
+                    </span>
+                </div>
+                <li class="search-box">
+                    <i class="bx bx-search icon"></i>
+                </li>
+                </header>
+            <div class="menu-bar">
+                <div class="menu">
+                    <ul class="menu-links">
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class="bx bx-home-alt icon"></i>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-news icon'></i>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-spreadsheet icon' ></i>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-user icon'></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bottom-content">
+                    <li class="">
+                        <a href="#">
+                            <i class="bx bx-bell icon"></i>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#">
+                            <i class="bx bx-log-out icon"></i>
+                        </a>
+                    </li>
+                </div>
+            </div>
+        </nav>
+        </div>
+  <div class="container">
+    <div class="container1">
+        <div>
+        <div class="profile-name">
+                <img class="profile-pic" src="img_avatar.png" alt="profile" width="70px">
+                <p class="text1">
+                <span class="name">Hi MIKE,</span>
+                <span class="welcome">Welcome Back</span>
+                </p>
+        </div>
+        <span class="day">Today</span>
+        <p>
+            <span class="amount-details">$19,892</span>
+            <span class="amount-details caption">Account Balance</span>
+        </p>
+        <p>
+            <span class="amount-details" style="font-size: x-large;">$4,000</span>
+            <span class="amount-details caption">Year-to-Date Contribution</span>
+        </p>
+        <p>
+            <span class="amount-details" style="font-size: medium;">$1,892</span>
+            <span class="amount-details caption" style="padding-bottom: 40px;">Total Interest</span>
+        </p>
+        </div>
+        <div class="btn-1">
+            I want to
+            <select style="background:transparent; border:0px; padding:0px; width:20px;">
+            <option ></option>
+            <option value="option1">option1</option>
+            <option value="option2">option2</option>
+            <option value="option3">option3</option>
+          </select>
+        </div>
+        <span class="day" style="padding-top: 25px;">Recent Transactions</span>
+        <p>
+            <span class="amount-details date" >2020-08-07</span>
+            <span class="amount-details Withdrawal" >Withdrawal Transfer to Bank-XXX11</span>
+        </p>
+        <hr>
+        <p>
+            <span class="amount-details date" >2020-07-21</span>
+            <span class="amount-details Withdrawal">Withdrawal Transfer to Bank-XXX11</span>
+        </p>
+        <hr>
+        <p>
+            <span class="amount-details date" >2020-07-16</span>
+            <span class="amount-details Withdrawal">Withdrawal Transfer to Bank-XXX11</span>
+        </p>
+        <hr>
+    </div>
+    <div class="container2">
+        <div>
+            <span class="mid-top" style="font-size:small; color: #0929fa;">Retirement Income</span>
+            <span class="mid-top" style="font-size:0.8em; font-family: bold; padding-top: 10px;">Starting Year 2056</span>
+        </div>
+        <div class="mid-goal">
+            <div style="flex:33.3% ;">
+                <span class="mid-goal1">$300,000</span>
+                <span class="goal mid-goal1">My Goal</span>
+                <hr style="width: 90%; border-top: 1px solid #0929fa;">
+            </div>
+            <div style="flex:33.3%;">
+                <span class="mid-goal1">59%</span>
+                <span class="goal mid-goal1">Goal Achieved</span>
+                <hr style="width: 90%; border-top: 1px solid #0929fa;">
+            </div>
+            <div style="flex:33.3%;">
+                <span class="mid-goal1">$300</span>
+                <span class="goal mid-goal1">Est. Monthly Income</span>
+                <hr style="width: 90%; border-top: 1px solid #0929fa;">
+            </div>
+        </div>
+        <div style="padding-top: 20px; display: flex; justify-content: left;">
+            <div id="chart_div"></div>
+        </div>
+        <div>
+            <span style="display: flex; font-size: small; font-weight: bold;">How do I compare to my peers?</span>
+            <span style="display: flex; font-size: x-small; opacity: 0.5;">These numbers represent currrent goal Achievement</span>
+        </div>
+        <div style="display: flex;">
+            <div>
+                <div style="display: flex; font-size: small; padding-top: 30px;">
+                    <label for="age" style="padding-right: 10px;">Age:</label>
+                        <select name="age" id="Age">
+                            <option value="30">Under 30</option>
+                            <option value="2">option 2</option>
+                        </select>
+                </div>
+                <div style="display: flex; font-size: small; padding-top: 30px;">
+                    <label for="salary" style="padding-right: 10px;">Salary:</label>
+                    <select name="salary" id="salary">
+                        <option value="30">K 20-K 30</option>
+                        <option value="2">option 2</option>
+                    </select>
+                </div>
+                <div style="display: flex; font-size: small; padding-top: 30px;">
+                    <label for="Gender" style="padding-right: 10px;">Gender:</label>
+                    <select name="Gender" id="Gender">
+                        <option value="male">Male</option>
+                        <option value="female">female</option>
+                    </select>
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div> <div id="donutchart1" style="width: 250px; height: 250px;"></div></div>
+                <div> <div id="donutchart2" style="width: 250px; height: 250px;"></div></div>
+                <div> <div id="donutchart3" style="width: 250px; height: 250px;"></div></div>
+            </div>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="top">
+            <span class="last-title">Retirement Strategy</span>
+            <div class="slidebar">
+                <span class="slide-title">Employee Contribution</span>
+                <div class="lenght range_slider" >
+                    <input id="slider1" class="slider" type="range" min="0" max="24" value="16" />
+                    <div class="length__title field-title" data-length='0'><span id="contri"></span>%</div>
+                </div>
+            </div>
+            <div class="slidebar">
+                <span class="slide-title">Retirement Age</span>
+                <div class="lenght range_slider">
+                    <input id="slider2" class="slider" type="range" min="18" max="80" value="65" />
+                    <div class="length__title field-title" data-length='0'><span id="age"></span></div>
+                </div>
+            </div>
+            <hr  style="width: 250px;">
+        </div>
+        <div class="mid">
+            <div class="mid-text">
+                <span>Employer Contribution</span>
+                <span class="mid-num">8.4%</span>
+            </div>
+            <div class="mid-text">
+                <span>Interest Rate</span>
+                <span class="mid-num">5%</span>
+            </div>
+            <div class="update">
+                <button class="update-btn">Update</button>
+            </div>
+            <div class="help">
+                <span>View Help Docs</span>
+                <i class='bx bx-chevron-right'></i>
+            </div>
+        </div>
+        <div class="bottom">
+                <span class="last">Are you considering a</span>
+                <span class="last" style="font-weight: bold;">Housing Advance?</span>
+                <span class="last" style="opacity: 0.5; padding-top: 10px; padding-bottom: 10px;">Limited time reduced Interest</span>
+                <span class="last">Learn More <i class='bx bx-chevron-right'></i></span>
+        </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
